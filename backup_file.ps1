@@ -1,8 +1,8 @@
 # Cesta k původnímu souboru
-$originalFile = "C:\Users\Aries_Jech\Documents\SK_Odberatele.ods"
+$originalFile = "C:\Users\user\File.txt"
 
 # Cesta k cílové složce záloh
-$backupFolder = "C:\Users\Aries_Jech\Desktop\"
+$backupFolder = "C:\Users\user\Desktop\"
 
 # Získání aktuálního data a času
 $currentTime = Get-Date -Format "yyyy-MM-dd_HH-mm-ss"
