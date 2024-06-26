@@ -2,10 +2,10 @@
 setlocal
 
 :: Cesta k původnímu souboru
-set "original_file=C:\Users\Aries_Jech\Documents\SK_Odberatele.ods"
+set "original_file=C:\Users\user\File.ods"
 
 :: Cesta k cílové složce záloh
-set "backup_folder=C:\Users\Aries_Jech\Desktop\"
+set "backup_folder=C:\Users\user\Desktop\"
 
 :: Získání aktuálního data a času
 for /f "tokens=1-4 delims=. " %%a in ('date /t') do (set mydate=%%c-%%b-%%a)
