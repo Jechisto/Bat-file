@@ -1,0 +1,3 @@
+start "" "brave.exe" -kiosk "https://s-server.softli.site/reports/#/dashboard/20/fullscreen"
+
+start "" "firefox.exe" -kiosk "https://s-server.softli.site/reports/#/dashboard/21/fullscreen"
